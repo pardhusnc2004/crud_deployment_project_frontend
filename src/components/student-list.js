@@ -15,12 +15,11 @@ export function Studentlist() {
         .catch((err)=> alert(err));
     },[])
     return (
-        <table style={{maxWidth: "60%", margin: "50px auto"}} class="table my-5 table-bordered table-striped table-dark table-hover">
+        <table style={{maxWidth: "80%", minWidth: "80%", margin: "50px auto"}} class="table my-5 table-bordered table-striped table-dark table-hover">
             <thead>
                 <tr>
-                    <th class="text-center">Name</th>
-                    <th class="text-center">Email</th>
-                    <th class="text-center">Roll Number</th>
+                    <th class="text-center">Item</th>
+                    <th class="text-center">Price</th>
                     <th className='text-center'>Actions</th>
                 </tr>
             </thead>

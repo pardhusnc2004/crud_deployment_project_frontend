@@ -21,7 +21,7 @@ export function Createstudent() {
     return (
         <form onSubmit={handleSubmit}>
             <StudentForm getFormData={getFormData} nameVal="" emailVal="" rollVal="">
-                Create Student
+                Add Item
             </StudentForm>
         </form>
     )

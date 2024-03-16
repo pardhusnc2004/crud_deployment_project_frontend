@@ -44,7 +44,7 @@ function EditStudent()
                         nameVal={initialValue.name}
                         emailVal={initialValue.email}
                         rollVal= {initialValue.roll}>
-                            Update Student
+                            Update Item
                         </StudentForm>
         </form>
     )
