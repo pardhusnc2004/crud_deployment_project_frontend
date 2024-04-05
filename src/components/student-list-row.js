@@ -18,8 +18,8 @@ function Studentlistrow(props) {
             <td className='mt-2'>{name}</td>
             <td className='mt-2'>{roll}</td>
             <td className='d-flex justify-content-center'>
-                <Link className='btn btn-primary' to={"/edit-student/" + _id}>Edit</Link>
-                <button className='btn btn-danger' onClick={handleClick_delete}>Delete</button>
+                <Link className='btn btn-light mx-1' to={"/edit-student/" + _id}>✏️</Link>
+                <button className='btn btn-light mx-1' onClick={handleClick_delete}>❌</button>
             </td>
         </tr>
     )
